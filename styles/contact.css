@@ -1,0 +1,35 @@
+.contact-me {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+i {
+  color: tomato;
+  font-size: 2rem;
+}
+.connect {
+  display: flex;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+figure {
+  color: grey;
+  margin-bottom: 0 !important;
+  margin: 0 0 1rem;
+}
+.iconss {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fab {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.connection {
+  display: flex;
+  margin-left: 233px;
+  margin-top: 120px;
+}

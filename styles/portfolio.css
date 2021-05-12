@@ -1,0 +1,53 @@
+.container3 {
+    display: inline-block;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  bottom: -230px;
+}
+.container2-1 {
+  display: block;
+  bottom: -90px;
+  margin-left: 320px;
+}
+.image {
+  display: block;
+  width: 60%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  overflow: hidden;
+  width: 60%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: 0.3s ease;
+  transition: 0.8s ease;
+}
+
+.container3:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  text-decoration: none;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
