@@ -1,53 +1,70 @@
-.container3 {
-    display: inline-block;
-  position: relative;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 30%;
-  bottom: -230px;
+.container01 {
+  display: flex;
+  flex-wrap: wrap;
+  background: inherit;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  padding: 3% 12%;
+  color: blue;
 }
-.container2-1 {
-  display: block;
-  bottom: -90px;
-  margin-left: 320px;
-}
-.image {
-  display: block;
-  width: 60%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: transparent;
-  overflow: hidden;
-  width: 60%;
-  height: 100%;
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition: 0.3s ease;
-  transition: 0.8s ease;
-}
-
-.container3:hover .overlay {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
-
-.text {
-  color: white;
-  font-size: 25px;
-  position: absolute;
-  text-decoration: none;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.heading {
+  width: 100%;
   text-align: center;
+  font-size: 1.5em;
+}
+.card {
+  width: 48%;
+  margin: 1%;
+  min-width: 369px;
+  display: flex;
+  flex-direction: column;
+  flex: 1.1 200px;
+  flex: 0.1 200px;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 8px 32px rgba(31, 38, 137, 0.7);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background: rgba(255, 255, 255, 0.5s);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.32s);
+  backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: all 0.3s linear;
+  width: 49%;
+  margin-right: 5%;
+}
+.button:hover {
+  font-size: 1.1em;
+  color: dodgerblue;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card-header {
+  color: tomato;
+}
+.description {
+  color: white;
+}
+.subtitle {
+  color: #ddd;
 }

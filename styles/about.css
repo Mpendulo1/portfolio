@@ -1,7 +1,7 @@
 .section {
   position: relative;
-  height: 130vh;
-  width: 100%;
+  height: 140vh;
+  width: 98%;
   color: #fff;
 }
 .about-header {
@@ -78,12 +78,11 @@ dl dt {
   margin-right: -15px;
   margin-left: -15px;
   position: relative;
-  }
+}
 .education {
-  flex:  0 0 50%;
+  flex: 0 0 50%;
   max-width: 50%;
   margin-top: 30px;
-
 }
 h3.title {
   text-align: center;
@@ -95,16 +94,14 @@ h3.title {
 .timeline-box {
   flex: 0 0 100%;
   max-width: 100%;
-
 }
 .padd {
   font-family: inherit;
   padding-left: 15px;
   padding-right: 15px;
-
 }
 .shadow {
-  box-shadow: 0 0 20px rgba(48, 46, 77, .15);
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 .timeline-item {
   position: relative;
@@ -131,7 +128,6 @@ h3.title {
   left: 0;
   border-radius: 50%;
   background-color: #f26c4f;
-
 }
 .timeline-date {
   font-size: 14px;
@@ -141,7 +137,6 @@ h3.title {
 }
 .timeline-date .fa {
   margin-right: 5px;
-
 }
 .timeline-title {
   font-weight: 700;
@@ -156,22 +151,8 @@ h3.title {
   color: white;
   margin: 0;
 }
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
+@media only screen and (min-width: 480px) {
+  p {
+    font-size: 100%;
   }
 }

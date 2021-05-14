@@ -22,6 +22,7 @@ figure {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  width: 500px;
   font-size: 1.5rem;
   margin-bottom: 100px;
 }
@@ -34,6 +35,8 @@ figure {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-right: 328px;
+  padding-left: 334px;
 }
 input[type="text"],
 select,
@@ -67,4 +70,7 @@ input[type="submit"] {
 .links {
   color: white;
   text-decoration: none;
+}
+.contact-sub {
+  font-size: 2rem;
 }
