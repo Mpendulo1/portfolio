@@ -2,641 +2,973 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mpendulo Khoza</title>
-    <link rel="stylesheet" href="./styles/landing.css" />
-    <link rel="stylesheet" href="./styles/about.css" />
-    <link rel="stylesheet" href="./styles/skills.css" />
-    <link rel="stylesheet" href="./styles/portfolio.css" />
-    <link rel="stylesheet" href="./styles/testimonials.css" />
-    <link rel="stylesheet" href="./styles/contact.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-      crossorigin="anonymous"
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-      crossorigin="anonymous"
-    />
+    <meta name="author" content="ThemeStarz" />
+
+    <link rel="stylesheet" href="./styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles/fontawesome.css" />
+    <link rel="stylesheet" href="./styles/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./styles/popup.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/theme-default.css" />
+    <link rel="stylesheet" href="./styles/myskills.css" />
     <script
       src="https://kit.fontawesome.com/f087899028.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./slides.js"></script>
+    <title>Mpendulo Khoza</title>
   </head>
-  <body>
-    <!-- Landing Section -->
-    <section id="#home" class="page-top">
-      <nav class="navigation-bar fixed-top">
+  <body data-spy="scroll" data-target=".navbar" class="has-loading-screen">
+    <div class="ts-page-wrapper" id="page-top">
+      <!--NAVIGATION ******************************************************************************************-->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
         <div class="container">
-          <div class="topnav">
-            <a class="nav-item nav-link" href="index.html"> Home </a>
-            <a class="nav-item nav-link" href="#about-me">About</a>
-            <a class="nav-item nav-link" href="#resume">Resume</a>
-            <a class="nav-item nav-link" href="#skills">my skills</a>
-            <a class="nav-item nav-link" href="#portfolio">portfolio</a>
-            <a class="nav-item nav-link" href="#testimonial">Testimonials</a>
-            <a class="nav-item nav-link" href="#contact">Contact</a>
+          <a
+            class="navbar-brand ts-push-down__50 position-absolute ts-bottom__0 bg-white pb-0 ts-z-index__1 ts-scroll"
+            href="#page-top"
+          >
+            <img src="assets/img/logo.png" alt="" />
+          </a>
+          <!--end navbar-brand-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--end navbar-toggler-->
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav d-block d-lg-flex ml-auto text-right">
+              <a class="nav-item nav-link active ts-scroll" href="#page-top"
+                >Home <span class="sr-only">(current)</span></a
+              >
+              <a class="nav-item nav-link ts-scroll" href="#about-me">About</a>
+              <a class="nav-item nav-link ts-scroll" href="#my-services"
+                >Resume</a
+              >
+
+              <a class="nav-item nav-link ts-scroll" href="#my-skills"
+                >Skills</a
+              >
+              <a class="nav-item nav-link ts-scroll" href="#portfolio"
+                >Portfolio</a
+              >
+              <a class="nav-item nav-link ts-scroll" href="#testimonials"
+                >Testimonials</a
+              >
+              <a class="nav-item nav-link ts-scroll mr-2" href="#form-contact"
+                >Contact</a
+              >
+            </div>
+            <!--end navbar-nav-->
           </div>
+          <!--end collapse-->
         </div>
+        <!--end container-->
       </nav>
-
-      <!-- hero -->
-      <div id="ts-hero" class="hero-items">
-        <div class="container1">
-          <div class="row-info">
-            <div class="column">
-              <!-- social icons -->
-              <figure class="social-icons">
-                <a href="http://m.me/mpendulo.khoza.041102"
-                  ><i class="fab fa-facebook-square"></i
-                ></a>
-                <a href="https://github.com/Mpendulo1" target="popup"
-                  ><i class="fab fa-github"></i
-                ></a>
-                <a href=""
-                  ><i class="fab fa-twitter-square" target="popup"></i
-                ></a>
+      <!--end navbar-->
+      <!--*********************************************************************************************************-->
+      <!--************ HERO ***************************************************************************************-->
+      <!--*********************************************************************************************************-->
+      <div id="ts-hero" class="ts-animate-hero-items">
+        <!--HERO CONTENT ****************************************************************************************-->
+        <div class="container position-relative h-100 ts-align__vertical">
+          <div class="row w-100">
+            <div class="col-md-8">
+              <!--SOCIAL ICONS-->
+              <figure class="ts-social-icons mb-4">
+                <a href="m.me/mpendulo.khoza.041102" class="mr-3">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="mr-3">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://wa.me/0691506973" class="mr-3">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://telegram.me/Mpendulo1" class="mr-3">
+                  <i class="fab fa-telegram"></i>
+                </a>
+                <a href="#" class="mr-3">
+                  <i class="fab fa-instagram"></i>
+                </a>
               </figure>
-              <h1 class="My-header-name">I am Mpendulo Khoza</h1>
-              <h2 class="ml11">
-                <span class="text-wrapper">
-                  <span class="line line1"></span>
-                  <span class="letters">Aspiring Web Developer</span>
-                </span>
-              </h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- About Section -->
-    <section id="about-me" class="section">
-      <div class="container">
-        <div class="title text-center">
-          <h2 class="about-header">About Me</h2>
-        </div>
-        <div class="box1">
-          <div class="box-column1">
-            <div class="box-2">
-              <img
-                src="./background images/[removal.ai]_tmp-609a6ec6db1f0.png"
-                alt=""
-                class="second-image"
-              />
-            </div>
-          </div>
 
-          <div class="box-3">
-            <div class="box-column">
-              <h4 class="subtitle1">Hi there</h4>
-              <p style="margin-top: 17px; margin-bottom: 30px">
-                I'm an active person who likes to keep myself healthy and fit. I
-                play soccer, rugby and am also an athlete. I like to interact
-                with people, get to know them and most of the times I'd prefer
-                to listen to people rather than being the one talking because I
-                tend to learn from others that way.
-                <br />
-                <br />
-                Growing up surrounded by technology was the best thing that
-                could ever happen to me because it made me question how it was
-                made to play or do what it does. Ever since then my curiosity
-                has grown then my parents bought me a laptop because they saw
-                potential in me. That made me want to know more about computers
-                and the process of making them work and that was when I got
-                introduced to the words coding and programming.
-              </p>
-              <dl class="info-column">
-                <dt>Name:</dt>
-                <dd>Mpendulo</dd>
-                <dt>Phone:</dt>
-                <dd>068-221-7798</dd>
-                <dt>Email:</dt>
-                <dd>mpendulokhozamk2@gmail.com</dd>
-                <dt>Github:</dt>
-                <dd>Mpendulo1</dd>
-              </dl>
+              <!--TITLE -->
+              <h1>I am Mpendulo Khoza</h1>
+              <h1 class="ts-bubble-border">
+                <span class="ts-title-rotate">
+                  <span class="active">Web Dev</span>
+                  <span>Photographer</span>
+                  <span>Creative Person</span>
+                </span>
+              </h1>
             </div>
+            <!--end col-md-8-->
           </div>
+          <!--end row-->
+          <a
+            href="#my-services"
+            class="ts-btn-effect position-absolute ts-bottom__0 ts-left__0 ts-scroll ml-3 mb-3"
+          >
+            <span class="ts-visible ts-circle__sm rounded-0 ts-bg-primary">
+              <i class="fa fa-arrow-down text-white"></i>
+            </span>
+            <span class="ts-hidden ts-circle__sm rounded-0">
+              <i class="fa fa-arrow-down text-white"></i>
+            </span>
+          </a>
         </div>
+        <!--end container-->
+        <!--END HERO CONTENT ************************************************************************************-->
+
+        <!--HERO BACKGROUND *************************************************************************************-->
+        <div class="ts-background">
+          <div class="ts-background-image" data-bg-image="/mpendulo.JPG"
+          style="background-image: url(/Mpendulo.JPG);"></div>
+        </div>
+        <!--END HERO BACKGROUND *********************************************************************************-->
       </div>
-    </section>
-    <section id="resume" class="section">
-      <div class="title text-center">
-        <h3 class="about-header">Resume</h3>
-      </div>
-      <div class="row1">
-        <div class="education padd">
-          <h3 class="title">Education</h3>
-          <div class="row1">
-            <div class="timeline padd">
-              <div class="time-line shadow">
-                <div class="timeline-item">
-                  <div class="circle-dot"></div>
-                  <h6 class="timeline-date">
-                    <i class="fa fa=calender"></i>January 2015 - November 2020
-                  </h6>
-                  <h4 class="timeline-title">
-                    Matric Certificate Sophumelela High School 2020
-                  </h4>
-                  <p class="timeline-text">
-                    Done my high school there, been quite a long ride but it was
-                    worth it.
-                  </p>
+      <!--end #hero-->
+
+      <!--*********************************************************************************************************-->
+      <!--************ CONTENT ************************************************************************************-->
+      <!--*********************************************************************************************************-->
+      <main id="ts-content">
+        <!--END MY SERVICES *************************************************************************************-->
+
+        <section id="about-me" class="ts-block pb-4">
+          <div class="container">
+            <div class="ts-title text-center">
+              <h2>About Me</h2>
+            </div>
+            <!--end ts-title-->
+            <div class="row ts-align__vertical">
+              <div class="col-md-6">
+                <img
+                  src="./background images/[removal.ai]_tmp-609a6ec6db1f0.png"
+                  alt=""
+                  class="mw-100 mb-5"
+                />
+              </div>
+              <div class="col-md-6">
+                <h4 class="ts-bubble-border">Hi There</h4>
+                <p>
+                  I'm an active person who likes to keep myself healthy and fit.
+                  I play soccer, rugby and am also an athlete. I like to
+                  interact with people, get to know them and most of the times
+                  I'd prefer to listen to people rather than being the one
+                  talking because I tend to learn from others that way. Growing
+                  up surrounded by technology was the best thing that could ever
+                  happen to me because it made me question how it was made to
+                  play or do what it does. Ever since then my curiosity has
+                  grown then my parents bought me a laptop because they saw
+                  potential in me. That made me want to know more about
+                  computers and the process of making them work and that was
+                  when I got introduced to the words coding and programming.
+                </p>
+                <dl class="ts-column-count-2">
+                  <dt>Name:</dt>
+                  <dd>Mpendulo Khoza</dd>
+                  <dt>Phone:</dt>
+                  <dd>+27 69 150 6973</dd>
+                  <dt>Email:</dt>
+                  <dd>mpendulokhozamk2@gmail.com</dd>
+                  <dt>Github:</dt>
+                  <dd>Mpendulo1</dd>
+                </dl>
+                <hr class="ts-hr-light mb-5" />
+                <a href="#contact" class="ts-btn-effect mr-2">
+                  <span class="ts-visible btn btn-primary ts-btn-arrow"
+                    >Contact Me</span
+                  >
+                  <span
+                    class="ts-hidden btn btn-primary ts-btn-arrow"
+                    data-bg-color="#d44729"
+                    >Contact Me</span
+                  >
+                </a>
+
+                <a href="#contact" class="ts-btn-effect mr-2">
+                  <span class="ts-visible btn btn-outline-light">
+                    <i class="fa fa-download small mr-2"></i>
+                    Download CV
+                  </span>
+                  <span class="ts-hidden btn btn-light bg-white">
+                    <i class="fa fa-download small mr-2"></i>
+                    Download CV
+                  </span>
+                </a>
+              </div>
+            </div>
+            <!--end row-->
+          </div>
+        </section>
+        <!--MY Resume ***********************************************************************************-->
+        <section id="my-services" class="ts-block ts-xs-text-center pb-0">
+          <div class="container">
+            <div class="title text-center">
+              <h3 class="about-header">Resume</h3>
+            </div>
+            <div class="row1">
+              <div class="education padd">
+                <h3 class="title">Education</h3>
+                <div class="row1">
+                  <div class="timeline padd">
+                    <div class="time-line shadow">
+                      <div class="timeline-item">
+                        <div class="circle-dot"></div>
+                        <h6 class="timeline-date">
+                          <i class="fa fa=calender"></i>January 2015 - November
+                          2020
+                        </h6>
+                        <h4 class="timeline-title">
+                          Matric Certificate Sophumelela High School 2020
+                        </h4>
+                        <p class="timeline-text">
+                          Done my high school there, been quite a long ride but
+                          it was worth it.
+                        </p>
+                      </div>
+                      <div class="timeline-item">
+                        <div class="circle-dot"></div>
+                        <h6 class="timeline-date">
+                          <i class="fa fa=calender"></i>January 2018 - June 2020
+                        </h6>
+                        <h4 class="timeline-title">
+                          Leader's Quest Life Choices
+                        </h4>
+                        <p class="timeline-text">
+                          Having someone to teach you about life is a blessing
+                          it's self. I was taught how to be a leader in my own
+                          way and
+                          <br />
+                          how to understand people around me or and who live and
+                          who's lives revolve around me.<br />
+                          There I met wonderful mentors Like coach Mkhize and
+                          coach Unathi. They are lives changer.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="timeline-item">
-                  <div class="circle-dot"></div>
-                  <h6 class="timeline-date">
-                    <i class="fa fa=calender"></i>January 2018 - June 2020
-                  </h6>
-                  <h4 class="timeline-title">Leader's Quest Life Choices</h4>
-                  <p class="timeline-text">
-                    Having someone to teach you about life is a blessing it's
-                    self. I was taught how to be a leader in my own way and
-                    <br />
-                    how to understand people around me or and who live and who's
-                    lives revolve around me.<br />
-                    There I met wonderful mentors Like coach Mkhize and coach
-                    Unathi. They are lives changer.
-                  </p>
+              </div>
+              <div class="experience padd">
+                <h3 class="title">Experience</h3>
+                <div class="row1">
+                  <div class="timeline padd">
+                    <div class="time-line shadow">
+                      <div class="timeline-item">
+                        <div class="circle-dot"></div>
+                        <h6 class="timeline-date">
+                          <i class="fa fa-calender"></i>June 2017 - On Going
+                          Program
+                        </h6>
+                        <h4 class="timeline-title">volunteering</h4>
+                        <p class="titeline-text">
+                          In Phillipi East, there's a community hall where old
+                          age people are cooked and served food.<br />
+                          I volunteered because of the skill to cook and the the
+                          love to serve old people. <br />
+                          It is an ongoing service where people are given Food.
+                        </p>
+                      </div>
+                      <div class="timeline-item">
+                        <div class="circle-dot"></div>
+                        <h6 class="timeline-date">
+                          <i class="fa fa-calender"></i> june 20218
+                        </h6>
+                        <h4 class="timeline-title">Siyakha Organisation</h4>
+                        <p class="timeline-text">
+                          It is a non-profit organisation that help learners who
+                          struggle with school work, so we are there to help.<br />
+                          We focus mainly on tutoring them subjects which they
+                          lack on. Mathematics, Physical Sciences,
+                          Accounting,<br />
+                          Business and Life Sciences are the top rated subject
+                          which we focus mainly on.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="experience padd">
-          <h3 class="title">Experience</h3>
-          <div class="row1">
-            <div class="timeline padd">
-              <div class="time-line shadow">
-                <div class="timeline-item">
-                  <div class="circle-dot"></div>
-                  <h6 class="timeline-date">
-                    <i class="fa fa-calender"></i>June 2017 - On Going Program
-                  </h6>
-                  <h4 class="timeline-title">volunteering</h4>
-                  <p class="titeline-text">
-                    In Phillipi East, there's a community hall where old age
-                    people are cooked and served food.<br />
-                    I volunteered because of the skill to cook and the the love
-                    to serve old people. <br />
-                    It is an ongoing service where people are given Food.
-                  </p>
-                </div>
-                <div class="timeline-item">
-                  <div class="circle-dot"></div>
-                  <h6 class="timeline-date">
-                    <i class="fa fa-calender"></i> june 20218
-                  </h6>
-                  <h4 class="timeline-title">Siyakha Organisation</h4>
-                  <p class="timeline-text">
-                    It is a non-profit organisation that help learners who
-                    struggle with school work, so we are there to help.<br />
-                    We focus mainly on tutoring them subjects which they lack
-                    on. Mathematics, Physical Sciences, Accounting,<br />
-                    Business and Life Sciences are the top rated subject which
-                    we focus mainly on.
-                  </p>
-                </div>
-              </div>
+          <!--end container-->
+        </section>
+        <section class="ts-block">
+          <div class="container">
+            <div class="text-center px-5 pt-5 position-relative">
+              <h3 class="my-3">Let’s Work Together On Your Next Project!</h3>
+              <a
+                href="#contact"
+                class="btn btn-primary mr-2 ts-push-down__50 ts-has-talk-arrow"
+                >Hire Me Now!</a
+              >
+              <div
+                class="ts-background ts-opacity__20"
+                data-bg-image="assets/img/bg-keyboard.jpg"
+              ></div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-      <div class="container">
-        <div class="title text-center">
-          <h2 class="about-header">My Skills</h2>
-        </div>
-      </div>
-      <div class="box2">
-        <div class="box-column2" style="bottom: -90px">
-          <div class="box2-1">
-            <h4 class="subtitle2">Every Day Is A New Challange</h4>
-            <p style="margin-top: 17px; margin-bottom: 30px">
-             <span class="points"> Adaptability </span>— Being able to adapt on a different environment is a cruitial thing when it comes to work.<br>
-              I am able to adapt in any type of environment and face no difficulties it any sort because I am fast learner.
-              <br>
-              <br>
-              <span class="points">Attention to detail</span> — I pay Attention to anything I do or around me so that I can be able to deal with it <br>
-              according to my best behavior, judging on the situation.
-              <br>
-              <br>
-              <span class="points">Communication</span> — Able to communicate properly with others is the most important aspect of being around people. I interract with <br>
-              people, I like being surrounded by them and I learn a lot by just being around them.
-              <br>
-              <br>
-            <span class="points">Positivity</span> — In whatever situation, I can manage to stay positive because i believe that it is never too late to to do or achieve whatever you want to<br>
-              achieve 
-            
-              
-            </p>
-            <div class="button-container">
-              <a id="#contact" href="#contact">
-                <button href="contact" class="button button5" href="contact">
-                  Contact Me
-                </button>
+        </section>
+
+        <section id="my-skills" class="ts-block pb-5">
+          <div class="container">
+            <div class="ts-title text-center">
+              <h2>My Skills</h2>
+            </div>
+            <!--end ts-title-->
+            <h4>Every Day is a New Challenge</h4>
+            <div class="row">
+              <div class="col-md-6">
+                <p style="margin-top: 17px; margin-bottom: 30px">
+                  <span class="points"> Adaptability </span>— Being able to
+                  adapt on a different environment is a cruitial thing when it
+                  comes to work.<br />
+                  I am able to adapt in any type of environment and face no
+                  difficulties it any sort because I am fast learner.
+                  <br />
+                  <br />
+                  <span class="points">Attention to detail</span> — I pay
+                  Attention to anything I do or around me so that I can be able
+                  to deal with it <br />
+                  according to my best behavior, judging on the situation.
+                  <br />
+                  <br />
+                  <span class="points">Communication</span> — Able to
+                  communicate properly with others is the most important aspect
+                  of being around people. I interract with <br />
+                  people, I like being surrounded by them and I learn a lot by
+                  just being around them.
+                  <br />
+                  <br />
+                  <span class="points">Positivity</span> — In whatever
+                  situation, I can manage to stay positive because i believe
+                  that it is never too late to to do or achieve whatever you
+                  want to<br />
+                  achieve
+                </p>
+                <a href="#contact" class="btn btn-outline-light mb-5"
+                  >Contact Me</a
+                >
+              </div>
+              <!--end col-md-6-->
+              <div class="col-md-6">
+                <div class="box2-2">
+                  <i class="fab fa-html5 icons"> HTML</i>
+                  <i class="fab fa-css3-alt icons"> CSS</i>
+                  <i class="fab fa-python icons"> PYTHON</i>
+                </div>
+                <!--end progress-->
+              </div>
+              <!--end col-md-6-->
+            </div>
+            <!--end row-->
+          </div>
+          <!--end container-->
+        </section>
+
+        <section class="ts-block pb-5" id="portfolio">
+          <div class="container">
+            <div class="ts-title">
+              <h2>Portfolio</h2>
+            </div>
+            <!--end ts-title-->
+            <ul class="card-wrapper">
+              <li class="card">
+                <img class="images" src="./project cards images/BMI-Calculator.png" alt="">
+                <h4 class="portfolio-headings">BMI Calculator</h4>
+                <div class="card-buttons">
+                  <a href="#"class="button">live</a>
+                  <a href="#"class="button">github</a>
+                </div>
+              </li>
+              <li class="card">
+                <img class="images" src="./project cards images/BodyMassIndex.png" alt="">
+                <h4 class="portfolio-headings">Body Mass Index</h4>
+                <div class="card-buttons">
+                  <a href="#"class="button">live</a>
+                  <a href="https://github.com/Mpendulo1/BMI"class="button">github</a>
+                </div>
+              </li>
+              <li class="card">
+                <img class="images" src="./project cards images/contactwall.png" alt="">
+                <h4 class="portfolio-headings">Contact Form</h4>
+                <div class="card-buttons">
+                  <a href="https://pensive-euclid-10800c.netlify.app/"class="button">live</a>
+                  <a href="https://github.com/Mpendulo1/Contact-Form-2"class="button">github</a>
+                </div>
+              </li>
+              <li class="card">
+                <img class="images" src="./project cards images/tag3.png" alt="">
+                <h4 class="portfolio-headings">Project Cards</h4>
+                <div class="card-buttons">
+                  <a href="https://jolly-ardinghelli-7993bd.netlify.app/"class="button">live</a>
+                  <a href="https://github.com/Mpendulo1/Project-Cards"class="button">github</a>
+                </div>
+              </li>
+              <li class="card">
+                <img class="images" src="./project cards images/testimonilas.png" alt="">
+                <h4 class="portfolio-headings">Testimonials</h4>
+                <div class="card-buttons">
+                  <a href="https://confident-shaw-9c266a.netlify.app/"class="button">live</a>
+                  <a href="https://github.com/Mpendulo1/Testimonials"class="button">github</a>
+                </div>
+              </li>
+              <li class="card">
+                <img class="images" src="./project cards images/timeline.png" alt="">
+                <h4 class="portfolio-headings">Timeline</h4>
+                <div class="card-buttons">
+                  <a href="https://blissful-villani-5ab142.netlify.app/"class="button">live</a>
+                  <a href="https://github.com/Mpendulo1/Time-line"class="button">github</a>
+                </div>
+              </li>
+              <li class="card">
+                <img class="images" src="./project cards images/weathermap.png" alt="">
+                <h4 class="portfolio-headings">Weather App</h4>
+                <div class="card-buttons">
+                  <a href="#"class="button">live</a>
+                  <a href="#"class="button">github</a>
+                </div>
+              </li>
+            </ul>  
+          <!--end container-->
+        </section>
+        <!--end portfolio-->
+
+        <section id="testimonials" class="ts-block text-center pb-5">
+          <div class="container">
+            <div class="ts-title">
+              <h2>Testimonials</h2>
+            </div>
+            <!--end ts-title-->
+            <div class="row">
+              <div class="col-md-8 offset-md-2">
+                <div
+                  class="owl-carousel"
+                  data-owl-dots="1"
+                  data-owl-loop="1"
+                  data-animate="ts-fadeInUp"
+                >
+                  <div class="slide mb-5">
+                    <figure
+                      class="d-inline-block p-3 ts-bg-primary text-white ts-has-talk-arrow"
+                    >
+                      <i class="fa fa-quote-right"></i>
+                    </figure>
+                    <p class="ts-h5">
+                      Mpendulo has shown a remarkable development since joining
+                      the organisation. He has shown strong passion in front-end
+                      development.
+                    </p>
+                    <div
+                      class="ts-circle__lg mb-3"
+                      data-bg-image="./testimonial \images/godwin.jpg"
+                      style="background-image: url('./testimonial \images/godwin.jpg')"
+                    ></div>
+                    <h5>Godwin</h5>
+                    <h6 class="ts-opacity__40">Head Of Curriculum</h6>
+                  </div>
+
+                  <div class="slide mb-5">
+                    <figure
+                      class="d-inline-block p-3 ts-bg-primary text-white ts-has-talk-arrow"
+                    >
+                      <i class="fa fa-quote-right"></i>
+                    </figure>
+                    <p class="ts-h5">
+                      You can always rely on him.He is a quiet person, however
+                      quick thinking, deligent and responsible.
+                    </p>
+                    <div
+                      class="ts-circle__lg mb-3"
+                      data-bg-image="./testimonial \images/Ayyoob.jpg"
+                      style="background-image: url('');"
+                    ></div>
+                    <h5>Ayyoob</h5>
+                    <h6 class="ts-opacity__40">student</h6>
+                  </div>
+                  <div class="slide mb-5">
+                    <figure
+                      class="d-inline-block p-3 ts-bg-primary text-white ts-has-talk-arrow"
+                    >
+                      <i class="fa fa-quote-right"></i>
+                    </figure>
+                    <p class="ts-h5">
+                      You can always rely on him.He is a quiet person, however
+                      quick thinking, deligent and responsible.
+                    </p>
+                    <div
+                      class="ts-circle__lg mb-3"
+                      data-bg-image="./testimonial \images/Uthmaan.jpg"
+                      style="background-image: url('./testimonial \images/Uthmaan.jpg');"
+                    ></div>
+                    <h5>Uthmaan</h5>
+                    <h6 class="ts-opacity__40">student</h6>
+                  </div>
+                  <div class="slide mb-5">
+                    <figure
+                      class="d-inline-block p-3 ts-bg-primary text-white ts-has-talk-arrow"
+                    >
+                      <i class="fa fa-quote-right"></i>
+                    </figure>
+                    <p class="ts-h5">
+                      He is an individual that likes to work with people, he
+                      puts effort in anything he does.<br />
+                      He has working spirit, full of energy. He's a great person
+                      to have around
+                    </p>
+                    <div
+                      class="ts-circle__lg mb-3"
+                      data-bg-image="./testimonial \images/Zipho.jpg"
+                      style="background-image: url('./testimonial \images/Zipho.jpg');"
+                    ></div>
+                    <h5>Zipho</h5>
+                    <h6 class="ts-opacity__40">student</h6>
+                  </div>
+                  <!--end slide-->
+                  <div class="slide mb-5">
+                    <figure
+                      class="d-inline-block p-3 ts-bg-primary text-white ts-has-talk-arrow"
+                    >
+                      <i class="fa fa-quote-right"></i>
+                    </figure>
+                    <p class="ts-h5">
+                      Mpendula is a wonderful, down to earth student. He has
+                      great communication skills, always focused on solving a
+                      problem at hand. Mpendulo has an ability to learn new
+                      programming tools quickly and has no problems switching to
+                      a different programming tools or languages.
+                    </p>
+                    <div
+                      class="ts-circle__lg mb-3"
+                      data-bg-image="testimonial \images/Thapelo.jpg"
+                      style="background: url('testimonial \images/Thapelo.jpg');"
+                    ></div>
+                    <h5>Thapelo Tsotetsi</h5>
+                    <h6 class="ts-opacity__40">Lecturer</h6>
+                  </div>
+                  <!--end slide-->
+                </div>
+                <!--end owl-carousel-->
+              </div>
+              <!--end col-md-8-->
+            </div>
+            <!--end row-->
+          </div>
+          <!--end container-->
+        </section>
+        <!--end #testimonials ts-block-->
+
+        <!--LOGOS ***********************************************************************************************-->
+        <section id="partners" class="ts-block py-4">
+          <!--container-->
+          <div class="container">
+            <!--block of logos-->
+            <div
+              class="d-block d-md-flex justify-content-between align-items-center text-center ts-partners py-3"
+            >
+              <a href="#">
+                <img src="assets/img/logo-01-w.png" alt="" />
+              </a>
+              <a href="#">
+                <img src="assets/img/logo-02-w.png" alt="" />
+              </a>
+              <a href="#">
+                <img src="assets/img/logo-03-w.png" alt="" />
+              </a>
+              <a href="#">
+                <img src="assets/img/logo-04-w.png" alt="" />
+              </a>
+              <a href="#">
+                <img src="assets/img/logo-05-w.png" alt="" />
               </a>
             </div>
+            <!--end logos-->
           </div>
-          <div class="box2-2">
-            <i class="fab fa-html5 icons"> HTML</i>
-            <i class="fab fa-css3-alt icons"> CSS</i>
-            <i class="fab fa-python icons"> PYTHON</i>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <section id="portfolio" class="section">
-      <div class="container01">
-        <div class="card">
-          <div class="container01">
-            <!-- Testimonials -->
-            <img src="./project cards images/testimonilas.png" alt="" style="width: 300px;height: 28vh;"/>
-            <div class="details">
-              <h2 class="card-header">TESTIMONIALS</h2>
-              <h3 class="subtitle">-HTML CSS AND JAVASCRIPT-</h3>
-              <p class="description">
-                We created slides uing JAVASCRIPT to auto move
-              </p>
-            </div>
-            <div class="card-buttons">
-              <a
-                href="https://confident-shaw-9c266a.netlify.app/"
-                target="blank"
-                class="button"
-                >live</a
-              >
-              <a
-                href="https://github.com/Mpendulo1/Testimonials"
-                target="blank"
-                class="button"
-                >Github</a
-              >
-            </div>
-          </div>
-        </div>
-  
-        <div class="card">
-          <div class="container01">
-            <!-- Timeline -->
-            <img src="./project cards images/timeline.png" alt="" style="width: 300px;height: 28vh;" />
-            <div class="details">
-              <h2 class="card-header">Timeline</h2>
-              <h3 class="subtitle">-HTML CSS AND JAVASCRIPT-</h3>
-              <p class="description">
-                We created slides uing JAVASCRIPT to auto move
-              </p>
-            </div>
-            <div class="card-buttons">
-              <a
-                href="https://blissful-villani-5ab142.netlify.app/"
-                target="blank"
-                class="button"
-                >live</a
-              >
-              <a
-                href="https://github.com/Mpendulo1/Time-line"
-                target="blank"
-                class="button"
-                >Github</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="container01">
-            <!-- Project Cards -->
-            <img src="./project cards images/tag3.png" alt="" style="width: 300px;height: 28vh;" />
-            <div class="details">
-              <h2 class="card-header">Project Cards</h2>
-              <h3 class="subtitle">-HTML CSS AND JAVASCRIPT-</h3>
-              <p class="description">
-                We created slides uing JAVASCRIPT to auto move
-              </p>
-            </div>
-            <div class="card-buttons">
-              <a
-                href="https://jolly-ardinghelli-7993bd.netlify.app/"
-                target="blank"
-                class="button"
-                >live</a
-              >
-              <a
-                href="https://github.com/Mpendulo1/Project-Cards"
-                target="blank"
-                class="button"
-                >Github</a
-              >
-            </div>
-          </div>
-        </div>
-         <!-- Contact Form -->
-        <div class="card">
-          <div class="container01">
-            <img src="./project cards images/contactwall.png" alt="" style="width: 300px;height: 28vh;" />
-            <div class="details">
-              <h2 class="card-header">Contact Form</h2>
-              <h3 class="subtitle">-HTML CSS AND JAVASCRIPT-</h3>
-              <p class="description">
-                We created slides uing JAVASCRIPT to auto move
-              </p>
-            </div>
-            <div class="card-buttons">
-              <a
-                href="https://pensive-euclid-10800c.netlify.app/"
-                target="blank"
-                class="button"
-                >live</a
-              >
-              <a
-                href="https://github.com/Mpendulo1/Contact-Form-2"
-                target="blank"
-                class="button"
-                >Github</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="container01">
-            <!-- tKinter -->
-            <img src="./project cards images/pylogo.jpg" alt="" style="width: 300px;height: 28vh;" />
-            <div class="details">
-              <h2 class="card-header">Adding Numbers</h2>
-              <h3 class="subtitle points">-HTML CSS AND JAVASCRIPT-</h3>
-              <p class="description">
-                We created slides uing JAVASCRIPT to auto move
-              </p>
-            </div>
-            <div class="card-buttons">
-              <a
-                href="https://replit.com/join/zwjtgkmh-mpendulo01"
-                target="blank"
-                class="button"
-                >live</a
-              >
-              <a
-                href="https://github.com/Mpendulo1/tkinter"
-                target="blank"
-                class="button"
-                >Github</a
-              >
-            </div>
-          </div>
-        </div>
-        <!-- Temperature Conversion -->
-        <div class="card">
-          <div class="container01">
-            <img src="./project cards images/pylogo.jpg" alt="" style="width: 300px;height: 28vh;" />
-            <div class="details">
-              <h2 class="card-header">Temperature</h2>
-              <h3 class="subtitle">-HTML CSS AND JAVASCRIPT-</h3>
-              <p class="description">
-                We created slides uing JAVASCRIPT to auto move
-              </p>
-            </div>
-            <div class="card-buttons">
-              <a
-                href="https://replit.com/join/jxtlsjoe-mpendulo01"
-                target="blank"
-                class="button"
-                >live</a
-              >
-              <a
-                href="https://github.com/Mpendulo1/Temperature-Conv "
-                target="blank"
-                class="button"
-                >Github</a
-              >
-            </div>
-          </div>
-        </div>
-    </section>
-    <!-- Testimonial Section -->
-    <section id="testimonial" class="section">
-      <div class="container">
-        <div class="title">
-          <h4 class="about-header">Testimonials</h4>
-        </div>
-        <div class="owl-carousel">
-          <div class="slide person1">
-            <div class="image1">
-              <img src="./testimonial images/godwin.jpg" alt="" style="width: 182px" />
-            </div>
-            <div class="texts">
-              <h1>Godwin</h1>
-              <h3>Head of Learning and Curriculum</h3>
-              <q
-                >Mpendulo has shown a remarkable development since joining the
-                organisation. He has shown strong passion in front-end
-                development.</q
-              >
-            </div>
-          </div>
-          <div class="slide person2">
-            <div class="image1">
-              <img src="./testimonial images/thapelo.jpg" alt="" style="width: 180px" />
-            </div>
-            <div class="texts">
-              <h1>Thapelo</h1>
-              <h3>Lecturer</h3>
-              <q
-                >Mpendula is a wonderful, down to earth student. He has great
-                communication skills, always focused on solving a problem at
-                hand. Mpendulo has an ability to learn new programming tools
-                quickly and has no problems switching to a different programming
-                tools or languages.</q
-              >
-            </div>
-          </div>
-          <div class="slide person3">
-            <div class="image1">
-              <img
-                src="./testimonial images/C8 Apr21 Ayyoob Slamdien (2).JPG"
-                alt=""
-                style="width: 223px; height: 23vh"
-              />
-            </div>
-            <div class="texts">
-              <h1>AYYOOB</h1>
-              <h3>Student</h3>
-              <q
-                >You can always rely on him.He is a quiet person, however quick
-                thinking, deligent and responsible.</q
-              >
-            </div>
-          </div>
-          <div class="slide person4">
-            <div class="image1">
-              <img
-                src="./testimonial images/C8 Apr21 Uthmaan Breda (1).JPG"
-                alt=""
-                style="width: 223px; height: 23vh"
-              />
-            </div>
+          <!--end container-->
+        </section>
+        <!--END LOGOS *******************************************************************************************-->
+      </main>
+      <!--end #content-->
 
-            <div class="texts">
-              <h1>UTHMAAN</h1>
-              <h3>Student</h3>
-              <q
-                >You can always rely on him.He is a quiet person, however quick
-                thinking, deligent and responsible.</q
+      <!--*********************************************************************************************************-->
+      <!--************ FOOTER *************************************************************************************-->
+      <!--*********************************************************************************************************-->
+      <footer id="ts-footer" class="mt-5">
+        <section
+          id="contact"
+          class="ts-block ts-separate-bg-element"
+          data-bg-image="assets/img/bg-man-wall.jpg"
+          data-bg-image-opacity=".1"
+        >
+          <div class="container">
+            <div class="ts-title text-center">
+              <h2 class="ts-bubble-border">Get In Touch</h2>
+            </div>
+            <div class="row ts-xs-text-center">
+              <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp">
+                <img src="./project cards images/icons/icon-pin.png" class="mb-4" alt="" />
+                <h5>Address</h5>
+                <div class="ts-opacity__50">
+                  <figure class="mb-0">Phillipi East</figure>
+                </div>
+                <!--end ts-opacity__50-->
+              </div>
+              <!--end col-md-3-->
+              <div
+                class="col-sm-6 col-md-3 mb-4"
+                data-animate="ts-fadeInUp"
+                data-delay=".1s"
               >
+                <img src="./project cards images/icons/icon-phone-02.png" class="mb-4" alt="" />
+                <h5>Phone</h5>
+                <div class="ts-opacity__50">
+                  <figure class="mb-0">+27 69 150 6973</figure>
+                </div>
+                <!--end ts-opacity__50-->
+              </div>
+              <!--end col-md-3-->
+              <div
+                class="col-sm-6 col-md-3 mb-4"
+                data-animate="ts-fadeInUp"
+                data-delay=".2s"
+              >
+                <img src="./project cards images/icons/icon-envelope.png" class="mb-4" alt="" />
+                <h5>Email</h5>
+                <div class="ts-opacity__50">
+                  <figure class="mb-0">mpendulokhozamk2@gmail.com</figure>
+                  <figure>mpendulokhoza2@icloud.com</figure>
+                </div>
+                <!--end ts-opacity__50-->
+              </div>
+              <!--end col-md-3-->
+              <div
+                class="col-sm-6 col-md-3 mb-4"
+                data-animate="ts-fadeInUp"
+                data-delay=".3s"
+              >
+                <img
+                  src="assets/img/icon-talk-bubble.png"
+                  class="mb-4"
+                  alt=""
+                />
+                <!--end ts-opacity__50-->
+              </div>
+              <!--end col-md-3-->
             </div>
-          </div>
-          <div class="slide person5">
-            <div class="image1">
-              <img
-                src="./testimonial images/C8 Apr21 Zipho Sithandathu (3).JPG"
-                alt=""
-                style="width: 223px; height: 23vh"
-              />
-            </div>
+            <!--end row-->
 
-            <div class="texts">
-              <h1>ZIPHO</h1>
-              <h3>Student</h3>
-              <q
-                >He is an individual that likes to work with people, he puts effort in anything he does.<br>
-                He has working spirit, full of energy. He's a great person to have around</q
-              >
+            <div class="pt-5">
+              <div class="row">
+                <div class="col-md-4">
+                  <h3>Let’s Connect</h3>
+                  <div class="ts-column-count-sm-2">
+                    <a
+                      href="m.me/mpendulo.khoza.041102"
+                      class="mb-3 d-flex text-white ts-align__vertical"
+                    >
+                      <span
+                        class="ts-circle__xs border border-white ts-border-light mr-4"
+                      >
+                        <i class="fab fa-facebook-f"></i>
+                      </span>
+                      <span>Facebook</span>
+                    </a>
+                    <!--end link-->
+                    <a
+                      href="https://wa.me/0691506973"
+                      class="mb-3 d-flex text-white ts-align__vertical"
+                    >
+                      <span
+                        class="ts-circle__xs border border-white ts-border-light mr-4"
+                      >
+                        <i class="fab fa-whatsapp"></i>
+                      </span>
+                      <span>Whatsapp</span>
+                    </a>
+                    <!--end link-->
+                    <a
+                      href="https://telegram.me/Mpendulo1"
+                      class="mb-3 d-flex text-white ts-align__vertical"
+                    >
+                      <span
+                        class="ts-circle__xs border border-white ts-border-light mr-4"
+                      >
+                        <i class="fab fa-telegram"></i>
+                      </span>
+                      <span>Telegram</span>
+                    </a>
+                    <!--end link-->
+                    <a
+                      href="https://www.snapchat.com/add/mperah123"
+                      class="mb-3 d-flex text-white ts-align__vertical"
+                    >
+                      <span
+                        class="ts-circle__xs border border-white ts-border-light mr-4"
+                      >
+                        <i class="fab fa-snapchat"></i>
+                      </span>
+                      <span>Snapchat</span>
+                    </a>
+                    <!--end link-->
+                    <a
+                      href="#"
+                      class="mb-3 d-flex text-white ts-align__vertical"
+                    >
+                      <span
+                        class="ts-circle__xs border border-white ts-border-light mr-4"
+                      >
+                        <i class="fab fa-skype"></i>
+                      </span>
+                      <span>Skype</span>
+                    </a>
+                    <!--end link-->
+                  </div>
+                </div>
+                <!--end col-md-4-->
+                <div class="col-md-8">
+                  <h3>Send Me a Message</h3>
+                  <form
+                    id="form-contact"
+                    method="post"
+                    class="clearfix ts-form ts-form-email"
+                  >
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                          <label for="form-contact-name">Full Name *</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="form-contact-name"
+                            name="name"
+                            placeholder="Name"
+                            
+                          />
+                        </div>
+                        <!--end form-group -->
+                      </div>
+                      <!--end col-md-6 col-sm-6 -->
+                      <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                          <label for="form-contact-email">Email *</label>
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="form-contact-email"
+                            name="email"
+                            placeholder="example@email.com"
+                            
+                          />
+                        </div>
+                        <!--end form-group -->
+                      </div>
+                      <!--end col-md-6 col-sm-6 -->
+                    </div>
+                    <!--end row -->
+                    <div class="form-group">
+                      <label for="form-contact-subject">Subject *</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="form-contact-subject"
+                        name="subject"
+                        placeholder="Subject"
+                        
+                      />
+                    </div>
+                    <!--end form-group -->
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label for="form-contact-message">Message *</label>
+                          <textarea
+                            class="form-control"
+                            id="form-contact-message"
+                            rows="5"
+                            name="message"
+                            placeholder="Message"
+                            
+                          ></textarea>
+                        </div>
+                        <!--end form-group -->
+                      </div>
+                      <!--end col-md-12 -->
+                    </div>
+                    <!--end row -->
+                    <div class="form-group clearfix">
+                      <button
+                        type="submit"
+                        class="btn btn-primary float-right ts-btn-arrow"
+                        id="form-contact-submit"
+                      >
+                        Send a Message
+                      </button>
+                    </div>
+                    <!--end form-group -->
+                    <div class="form-contact-status"></div>
+                  </form>
+                  <!--end form-contact -->
+                </div>
+              </div>
+              <!--end row-->
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-      <div class="container">
-        <div class="title">
-          <h4 class="about-header">Contact</h4>
-        </div>
-        <div class="contact-me">
-          <div class="address ikon">
-            <i class="fas fa-map-marker-alt"></i>
-            <h5 class="connect">addres</h5>
-            <figure>A140 pholar Park</figure>
-            <figure>Phillipi East</figure>
-          </div>
-          <div class="phone ikon">
-            <i class="fas fa-phone-alt"></i>
-            <h5 class="connect">Phone</h5>
-            <figure>068-211-7798</figure>
-          </div>
-          <div class="email ikon">
-            <i class="far fa-envelope"></i>
-            <h5 class="connect">Email</h5>
-            <figure>mpendulokhozamk2@gmail.com</figure>
-          </div>
-        </div>
-        <div class="connection">
-          <div class="iconss">
-            <h3 class="contact-sub">Let's Connect</h3>
+          <!--end container-->
+        </section>
+        <!--end #contact-->
+
+        <div class="text-dark bg-white">
+          <div class="container py-3 position-relative">
+            <small>© Mpendulo Khoza</small>
             <a
-              href="http://m.me/mpendulo.khoza.041102"
-              class="links"
-              target="popup"
-              ><span class="radius">
-                <i class="fab fa-facebook-f"></i>
-              </span>
-              <span>Facebook</span>
+              href="#page-top"
+              class="ts-circle__xs rounded-0 bg-dark position-absolute ts-right__0 ts-top__0 ts-push-up__50 ts-scroll"
+            >
+              <i class="fa fa-arrow-up text-white"></i>
             </a>
-            <a href="" class="links"
-              ><span class="radius">
-                <i class="fab fa-twitter"></i>
-              </span>
-              <span>Twitter</span>
-            </a>
-            <a href="https://github.com/Mpendulo1" class="links"
-              ><span class="radius">
-                <i class="fab fa-github"></i>
-              </span>
-              <span>Github</span>
-            </a>
-            <a href="https://wa.me/+27682117798" class="links" target="popup"
-              ><span class="radius">
-                <i class="fab fa-whatsapp"></i>
-              </span>
-              <span>Whatsapp</span>
-            </a>
-          </div>
-
-          <div class="contact-form">
-            <h3 class="contact-sub">Send Me A Message</h3>
-            <div class="container-form">
-              <form
-                name="contact-form"
-                action="https://formspree.io/f/meqvagwk"
-                method="POST"
-                target="popup"
-                
-              >
-                <label for="fname">First Name</label>
-                <input
-                  type="text"
-                  id="fname"
-                  name="firstname"
-                  placeholder="Your name.."
-                />
-
-                <label for="lname">Last Name</label>
-                <input
-                  type="text"
-                  id="lname"
-                  name="lastname"
-                  placeholder="Your last name.."
-                />
-
-                <label for="lname">Email</label>
-                <input
-                  type="text"
-                  id="email"
-                  name="email"
-                  placeholder="example12@email.com.."
-                />
-
-                <label for="subject">Subject</label>
-                <textarea
-                  id="subject"
-                  name="subject"
-                  placeholder="Write something.."
-                  style="height: 200px"
-                ></textarea>
-
-                <input
-                  type="submit"
-                  id="submit"
-                  value="Submit ➡"
-                  onclick="submitForm()"
-                />
-              </form>
-            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <footer>
-  <p>Developer: ©Mpendulo Khoza<br>
-</footer>
+      </footer>
+      <!--end #footer-->
+    </div>
+    <!--end page-->
 
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script src="./slides.js"></script>
+    <!-- Modal -->
+    <div
+      class="modal fade text-dark"
+      id="modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content border-0 rounded-0">
+          <div class="modal-header bg-light px-5 pt-0 pb-5">
+            <div class="ts-title mb-0">
+              <figure class="ts-circle__md bg-dark rounded-0">
+                <img src="assets/img/icon-brushes.png" alt="" />
+              </figure>
+              <h4 class="mb-0">Web Design</h4>
+            </div>
+
+            <button
+              type="button"
+              class="close position-absolute ts-top__0 ts-right__0 m-2"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true" class="text-white">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body p-5">
+            <h5 class="mb-4">Latest Works</h5>
+            <div class="owl-carousel" data-owl-dots="1">
+              <div class="slide">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img src="assets/img/img-work-detail-01.jpg" alt="" />
+                    </div>
+                    <div class="col-md-8">
+                      <h4 class="mb-3">Creative Lights</h4>
+                      <p>
+                        In id nulla magna. Nullam posuere fermentum mattis. Nunc
+                        id dui at sapien faucibus fermentum ut vel diam. Nullam
+                        tempus, nunc id efficitur sagittis, urna est ultricies.
+                      </p>
+                      <a href="#" class="mb-4 text-dark d-block">
+                        <i class="fa fa-globe ts-opacity__50 mr-2"></i>
+                        www.example.com
+                      </a>
+                      <hr />
+                      <h6>Services Included</h6>
+                      <ul class="list-unstyled ts-opacity__50">
+                        <li>Design</li>
+                        <li>Coding</li>
+                        <li>SEO Optimization</li>
+                        <li>Hosting</li>
+                      </ul>
+                    </div>
+                    <!--end col-md-8-->
+                  </div>
+                  <!--end row-->
+                </div>
+                <!--end container-fluid-->
+              </div>
+              <!--end slide-->
+              <div class="slide">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img src="assets/img/img-work-detail-02.jpg" alt="" />
+                    </div>
+                    <div class="col-md-8">
+                      <h4 class="mb-3">Wood Ceiling</h4>
+                      <p>
+                        Phasellus volutpat velit nec purus elementum feugiat.
+                        Nunc feugiat fringilla turpis. Nam sed facilisis sem.
+                        Vestibulum vitae orci nec purus fringilla condimentum.
+                        Pellentesque id augue rhoncus, finibus sapien ut,
+                        commodo eros. Maecenas in nibh augue. Nunc rutrum
+                        blandit massa eu aliquet. Nulla facilisi. Aenean luctus
+                        ipsum in orci sagittis auctor vel sit amet ex
+                      </p>
+                      <a href="#" class="mb-4 text-dark d-block">
+                        <i class="fa fa-globe ts-opacity__50 mr-2"></i>
+                        www.example.com
+                      </a>
+                      <hr />
+                      <h6>Services Included</h6>
+                      <ul class="list-unstyled ts-opacity__50">
+                        <li>Design</li>
+                        <li>Coding</li>
+                        <li>SEO Optimization</li>
+                        <li>Hosting</li>
+                      </ul>
+                    </div>
+                    <!--end col-md-8-->
+                  </div>
+                  <!--end row-->
+                </div>
+                <!--end container-fluid-->
+              </div>
+              <!--end slide-->
+            </div>
+            <!--end owl-carousel-->
+          </div>
+          <!--end modal-body-->
+        </div>
+        <!--end modal-content-->
+      </div>
+      <!--end modal-dialog-->
+    </div>
+    <!--end modal-->
+
+    <script src="./javascript/jquery-3.3.1.min.js"></script>
+    <script src="./javascript/popper.min.js"></script>
+    <script src="./javascript/bootstrap.min.js"></script>
+    <script src="./javascript/imagesloaded.pkgd.min.js"></script>
+    <script src="./javascript/isInViewport.jquery.js"></script>
+    <script src="./javascript/jquery.popup.min.js"></script>
+    <script src="./javascript/scrolla.js"></script>
+    <script src="./javascript/jquery.validate.min.js"></script>
+    <script src="./javascript/owl.carousel.min.js"></script>
+    <script src="./javascript/custom.js"></script>
+    <script src="./javascript/odometer.min.js"></script>
+    <script src="./javascript/jquery-validate.bootstrap-tooltip.min.js"></script>
   </body>
 </html>
