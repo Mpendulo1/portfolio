@@ -1651,7 +1651,7 @@ body.has-loading-screen.loading-done:after {
 
 .map a[href^="http://maps.google.com/maps"]
 {
-  display: none ;
+  display: none;
 }
 
 .map a[href^="https://maps.google.com/maps"]
@@ -1675,16 +1675,18 @@ body.has-loading-screen.loading-done:after {
   position: relative;
   overflow: hidden;
   background-image: url(../Mpendulo.JPG);
-  background-position: cover;
+  background-position: center;
   background-size: cover;
-  object-fit: cover;
-  opacity: 0.4;
-  filter: grayscale(60%)
-  z-index: -1;
+  object-fit: contain;
+  z-index: 1;
 }
 
 #ts-hero .ts-background-image {
   background-position: top center;
+}
+
+.ts-background-image {
+  filter: grayscale(50%);
 }
 
 #ts-hero.ts-animate-hero-items h1:not(.ts-bubble-border) {
@@ -2887,32 +2889,30 @@ E. Template Specific Elements
   margin-right: 1rem;
 }
 .card-buttons {
-    display: flex;
+  display: flex;
 }
 .button {
-
-    backdrop-filter: blur(5.5px);
-    border-radius: 10px;
-    border: 1px solid rgb(0, 0, 0);
-    color: black;
-    text-decoration: none;
-    padding: 10px 25px;
-    transition: all 0.3s linear;
-    width: 49%;
-    margin-right: 5%;
-
+  backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  color: black;
+  text-decoration: none;
+  padding: 10px 25px;
+  transition: all 0.3s linear;
+  width: 49%;
+  margin-right: 5%;
 }
 .button:hover {
-    font-size: 1.1em;
-    color: rgb(255, 255, 255);
-    background: #020312;
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-  }
-  .portfolio-headings {
-      color: #020312;
-  }
-  .mw-100 {
-      opacity: 0.5;
-      filter: grayscale(70%);
-  }
+  font-size: 1.1em;
+  color: rgb(255, 255, 255);
+  background: #020312;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+.portfolio-headings {
+  color: #020312;
+}
+.mw-100 {
+  opacity: 0.5;
+  filter: grayscale(70%);
+}
