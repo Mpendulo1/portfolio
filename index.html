@@ -7,6 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta name="author" content="ThemeStarz" />
+    <script src="./javascript/pre-loader.js"></script>
 
     <link rel="stylesheet" href="./styles/bootstrap.min.css" />
     <link rel="stylesheet" href="./styles/fontawesome.css" />
@@ -23,6 +24,7 @@
     <title>Mpendulo Khoza</title>
   </head>
   <body data-spy="scroll" data-target=".navbar" class="has-loading-screen">
+    <div class="preloader"></div>
     <div class="ts-page-wrapper" id="page-top">
       <!--NAVIGATION ******************************************************************************************-->
       <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
@@ -375,8 +377,8 @@
                   <i class="fab fa-html5 icons"> HTML</i>
                   <i class="fab fa-css3-alt icons"> CSS</i>
                   <i class="fab fa-python icons"> PYTHON</i>
-                  <i class="fab fa-database icons"> DATABASE</i>
-                  <i class="fab fa-pepper-hot icons"> FLASK</i>
+                  <i class="fas fa-database icons"> DATABASE</i>
+                  <i class="fas fa-pepper-hot icons"> FLASK</i>
                 </div>
                 <!--end progress-->
               </div>
@@ -754,7 +756,7 @@
                             type="text"
                             class="form-control"
                             id="form-contact-email"
-                            name="email"
+                            name="name"
                             placeholder="example@email.com"
                             
                           />
@@ -767,7 +769,7 @@
                     <div class="form-group">
                       <label for="form-contact-subject">Subject *</label>
                       <input
-                        type="email"
+                        type="text"
                         class="form-control"
                         id="form-contact-subject"
                         name="subject"
