@@ -86,12 +86,16 @@ h3.title {
   font-weight: 400;
   color: white;
 }
+
 .timeline-box {
   flex: 0 0 100%;
   max-width: 100%;
 }
 .padd {
   font-family: inherit;
+}
+.row1 {
+  display: flex;
 }
 .shadow {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
@@ -136,7 +140,7 @@ h3.title {
   font-size: 18px;
   margin-top: 18px;
   text-transform: capitalize;
-  color: #302e4d;
+  color: white;
 }
 .timeline-text {
   font-size: 16px;
@@ -151,4 +155,16 @@ h3.title {
 }
 .education {
   flex: 0 0 50%;
+}
+.experience {
+  padding-left: 70px;
+}
+@media only screen and (max-width: 800px) {
+  .row1 {
+    display: block;
+  }
+  .experience {
+    padding: 0; 
+    margin-top: 50px;
+  }
 }
